@@ -1,0 +1,12 @@
+{
+	"baseUrl": "https://www.pecodesoftware.com/",
+	"viewportWidth": 1920,
+	"viewportHeight": 1080,
+	"defaultCommandTimeout": 25000,
+	"chromeWebSecurity": false,
+	"pageLoadTimeout": 100000,
+	"video": false,
+	"testFiles": [
+        "features/mainPageTest.js"
+	]
+}
