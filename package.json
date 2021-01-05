@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --browser chrome --env environment=dev"
+    "test:chrome": "npx cypress run --browser chrome --env environment=dev",
+    "report:merge": "mochawesome-merge cypress/results/json/*.json > index.json",
+    "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
   },
   "author": "Pecode Software",
   "license": "ISC",
   "dependencies": {
     "cypress": "^6.2.0"
+  },
+  "devDependencies": {
+    "cypress-multi-reporters": "^1.4.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0"
   }
 }
