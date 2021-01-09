@@ -4,7 +4,7 @@
 
 `npm install`
 
-2. Run the tests:
+2. Run the tests: 
 
 `npx cypress run --browser chrome --env environment=dev`
 
