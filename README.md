@@ -14,6 +14,8 @@ Passing `--headless` will force the browser to be hidden.
 
 `npx cypress open`
 
+ Test execution result page can be accessed on: https://maaaariana.github.io/pecodesoftware/
+
 ### Last test execution status
 
 <img src="https://github.com/maaaariana/pecodesoftware/workflows/PecodeSoftware-tracker-CI/badge.svg?branch=master">
